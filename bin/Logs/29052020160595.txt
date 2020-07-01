@@ -1,0 +1,2 @@
+[29-05-2020:16_05_95]FrameWork Initialize
+[29-05-2020:16_05_95]Browser Started

@@ -1,0 +1,3 @@
+[23-05-2020:17_05_37]FrameWork Initialize
+[23-05-2020:17_05_37]Browser Started
+[23-05-2020:17_05_37]Navigated to URL

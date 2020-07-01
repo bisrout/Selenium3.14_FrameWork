@@ -1,0 +1,5 @@
+[29-05-2020:17_05_12]FrameWork Initialize
+[29-05-2020:17_05_12]Browser Started
+[29-05-2020:17_05_12]Navigated to URL
+[29-05-2020:17_05_12]Page is ready
+[29-05-2020:17_05_12]Home Page logged in

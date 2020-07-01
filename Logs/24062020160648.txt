@@ -1,0 +1,7 @@
+[24-06-2020:16_06_48]FrameWork Initialize
+[24-06-2020:16_06_48]Browser Started
+[24-06-2020:16_06_48]Navigated to URL
+[24-06-2020:16_06_48]Home Page logged in
+[24-06-2020:16_06_48]Page is ready
+[24-06-2020:16_06_48]Page is ready
+[24-06-2020:16_06_48]Page is ready

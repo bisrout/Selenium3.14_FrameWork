@@ -1,0 +1,8 @@
+Steps\EmployyeeReg.class
+SeleniumTest\LoginTest.class
+Pages\LoginPage.class
+Steps\LoginStep.class
+Steps\TestInitialize.class
+Pages\HomePage.class
+Pages\EmployeeRegistration.class
+Runners\TestRunner.class

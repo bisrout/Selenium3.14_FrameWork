@@ -1,0 +1,4 @@
+[24-06-2020:15_06_64]FrameWork Initialize
+[24-06-2020:15_06_64]Browser Started
+[24-06-2020:15_06_64]Navigated to URL
+[24-06-2020:15_06_64]Page is ready
