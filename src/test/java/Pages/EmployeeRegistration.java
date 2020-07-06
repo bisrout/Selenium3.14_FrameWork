@@ -43,8 +43,9 @@ public class EmployeeRegistration extends BasePage {
         Thread.sleep(5000);
         email.EnterText(mailid);
         Thread.sleep(5000);
+        
     }
-    public HomePage clickRegisterbtn ()
+    public BasePage clickRegisterbtn ()
     {
         registerbtn.PerformClick();
         return Getinstanceof(HomePage.class);

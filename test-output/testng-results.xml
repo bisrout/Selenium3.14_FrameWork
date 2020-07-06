@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="55358" started-at="2020-06-26T18:57:09 IST" finished-at="2020-06-26T18:58:04 IST">
+  <suite name="Suite" duration-ms="42865" started-at="2020-07-06T12:01:00 IST" finished-at="2020-07-06T12:01:43 IST">
     <groups>
     </groups>
-    <test name="Test - 1" duration-ms="55358" started-at="2020-06-26T18:57:09 IST" finished-at="2020-06-26T18:58:04 IST">
+    <test name="Test - 1" duration-ms="42865" started-at="2020-07-06T12:01:00 IST" finished-at="2020-07-06T12:01:43 IST">
       <class name="SeleniumTest.LoginTest">
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="Initialize" is-config="true" duration-ms="27578" started-at="2020-06-26T18:57:09 IST" finished-at="2020-06-26T18:57:37 IST">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="Initialize" is-config="true" duration-ms="18055" started-at="2020-07-06T12:01:00 IST" finished-at="2020-07-06T12:01:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="FAIL" signature="EmployeeRegistration()[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="EmployeeRegistration" duration-ms="23442" started-at="2020-06-26T18:57:37 IST" finished-at="2020-06-26T18:58:00 IST">
+        <test-method status="FAIL" signature="EmployeeRegistration()[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="EmployeeRegistration" duration-ms="22382" started-at="2020-07-06T12:01:18 IST" finished-at="2020-07-06T12:01:41 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: Log off
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDBISROUT1', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28432, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bbb23a82-9004-4ec8-b5ea-20e...}
-Session ID: bbb23a82-9004-4ec8-b5ea-20eaee93d186
+System info: host: 'USHYDBISROUT1', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 456, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7f5503b-b6f4-494b-8caf-04025f37ec52
 *** Element info: {Using=link text, value=Log off}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Log off
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDBISROUT1', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28432, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bbb23a82-9004-4ec8-b5ea-20e...}
-Session ID: bbb23a82-9004-4ec8-b5ea-20eaee93d186
+System info: host: 'USHYDBISROUT1', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 456, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7f5503b-b6f4-494b-8caf-04025f37ec52
 *** Element info: {Using=link text, value=Log off}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -40,6 +40,7 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpR
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
@@ -71,7 +72,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmployeeRegistration -->
-        <test-method status="PASS" signature="killBrowser(org.testng.ITestResult)[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="killBrowser" is-config="true" duration-ms="1" started-at="2020-06-26T18:58:04 IST" finished-at="2020-06-26T18:58:04 IST">
+        <test-method status="PASS" signature="killBrowser(org.testng.ITestResult)[pri:0, instance:SeleniumTest.LoginTest@51e2adc7]" name="killBrowser" is-config="true" duration-ms="0" started-at="2020-07-06T12:01:43 IST" finished-at="2020-07-06T12:01:43 IST">
           <params>
             <param index="0">
               <value>
@@ -84,11 +85,11 @@ at java.lang.Thread.run(Thread.java:748)
         </test-method> <!-- killBrowser -->
       </class> <!-- SeleniumTest.LoginTest -->
       <class name="SeleniumTest.TestCycle2">
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="Initialize" is-config="true" duration-ms="27595" started-at="2020-06-26T18:57:09 IST" finished-at="2020-06-26T18:57:37 IST">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="Initialize" is-config="true" duration-ms="18083" started-at="2020-07-06T12:01:00 IST" finished-at="2020-07-06T12:01:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="FAIL" signature="Validation_POST_call()[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="Validation_POST_call" duration-ms="6510" started-at="2020-06-26T18:57:37 IST" finished-at="2020-06-26T18:57:43 IST">
+        <test-method status="FAIL" signature="Validation_POST_call()[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="Validation_POST_call" duration-ms="4754" started-at="2020-07-06T12:01:18 IST" finished-at="2020-07-06T12:01:23 IST">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[Home Page is not arrived expected:<[Hello biswajit!]> but was:<[ biswajit]>]]>
@@ -96,7 +97,7 @@ at java.lang.Thread.run(Thread.java:748)
             <full-stacktrace>
               <![CDATA[org.junit.ComparisonFailure: Home Page is not arrived expected:<[Hello biswajit!]> but was:<[ biswajit]>
 at org.junit.Assert.assertEquals(Assert.java:117)
-at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:34)
+at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,7 +119,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validation_POST_call -->
-        <test-method status="PASS" signature="killBrowser(org.testng.ITestResult)[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="killBrowser" is-config="true" duration-ms="4" started-at="2020-06-26T18:57:47 IST" finished-at="2020-06-26T18:57:47 IST">
+        <test-method status="PASS" signature="killBrowser(org.testng.ITestResult)[pri:0, instance:SeleniumTest.TestCycle2@1a8a8f7c]" name="killBrowser" is-config="true" duration-ms="3" started-at="2020-07-06T12:01:27 IST" finished-at="2020-07-06T12:01:27 IST">
           <params>
             <param index="0">
               <value>

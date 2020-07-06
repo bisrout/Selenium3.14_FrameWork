@@ -9,22 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test - 1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">55,358</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test - 1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">42,865</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test - 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SeleniumTest.LoginTest</td><td><a href="#m0">EmployeeRegistration</a></td><td rowspan="1">1593178057106</td><td rowspan="1">23442</td></tr><tr class="failedodd"><td rowspan="1">SeleniumTest.TestCycle2</td><td><a href="#m1">Validation_POST_call</a></td><td rowspan="1">1593178057122</td><td rowspan="1">6510</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test - 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SeleniumTest.LoginTest</td><td><a href="#m0">EmployeeRegistration</a></td><td rowspan="1">1594017078805</td><td rowspan="1">22382</td></tr><tr class="failedodd"><td rowspan="1">SeleniumTest.TestCycle2</td><td><a href="#m1">Validation_POST_call</a></td><td rowspan="1">1594017078805</td><td rowspan="1">4754</td></tr></tbody>
 </table>
 <h2>Test - 1</h2><h3 id="m0">SeleniumTest.LoginTest#EmployeeRegistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Log off
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;USHYDBISROUT1&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28432, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bbb23a82-9004-4ec8-b5ea-20e...}
-Session ID: bbb23a82-9004-4ec8-b5ea-20eaee93d186
+System info: host: &apos;USHYDBISROUT1&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 456, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7f5503b-b6f4-494b-8caf-04025f37ec52
 *** Element info: {Using=link text, value=Log off}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
@@ -41,7 +42,7 @@ Session ID: bbb23a82-9004-4ec8-b5ea-20eaee93d186
 ... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">SeleniumTest.TestCycle2#Validation_POST_call</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: Home Page is not arrived expected:&lt;[Hello biswajit!]&gt; but was:&lt;[ biswajit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:34)
+	at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:35)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)

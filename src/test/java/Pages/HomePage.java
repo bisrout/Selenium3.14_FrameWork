@@ -23,7 +23,7 @@ public class  HomePage extends BasePage {
     @FindBy(how= How.XPATH,using="//a[@href=\"/Account/Register\"]")
     public Hyperlink lnkRegister;
     //Page functionalities
-    public  LoginPage ClickLogin(){
+    public  BasePage ClickLogin(){
     	//Below steps to be followed to get the Webelemnt method
         lnklogin.ClickLink();
         lnklogin.Wait();      
@@ -34,7 +34,7 @@ public class  HomePage extends BasePage {
     	linkLogoff.ClickLink();
         Thread.sleep(3000);
     }
-    public EmployeeRegistration clickRegister()   {
+    public BasePage clickRegister()   {
         lnkRegister.ClickLink();
         return Getinstanceof(EmployeeRegistration.class);
     }

@@ -13,6 +13,7 @@ import com.ea.Framework.Utilities.DataBaseUtil;
 import com.ea.Framework.Utilities.ExcelUtil;
 import com.ea.Framework.Utilities.LogUtil;
 import com.ea.Framework.Utilities.ReportingUtil;
+import com.ea.Framework.base.BasePage;
 import com.ea.Framework.base.BrowserType;
 import com.ea.Framework.base.DriverContext;
 import com.ea.Framework.base.FrameWorkInitialize;
@@ -36,7 +37,7 @@ import java.sql.SQLException;
 public class TestInitialize extends FrameWorkInitialize {
     public ExcelUtil util;
     public Connection conn;
-
+    
 
     @BeforeMethod
     //This will run before each @Test 
@@ -68,7 +69,7 @@ public class TestInitialize extends FrameWorkInitialize {
         
         //Invoke Browser
         //@Param for GRID mention BrowserType.Grid or for single browser BrowserType.Firefox
-        InitializeBrowser(BrowserType.Grid);
+        InitializeBrowser(BrowserType.FireFox);
         
         Settings.log.Write("Navigated to URL");
        //Navigate to the  URL        

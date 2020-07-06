@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Properties>
-        <Property name="LogPath ">C:\\TestNG_Java\\FrameWork_3.0\\Logs</Property>
+        <Property name="LogPath ">C:\\TestNG_Grid\\Logs</Property>
     </Properties>
     <Appenders>
         <RollingFile name="FileLogger" filename="$(LogPath)/1234_mylog.log" filepattern="$(LogPath)/1234_mylog_diffdate.log">
@@ -15,7 +15,7 @@
         </Console>
     </Appenders>
     <Loggers>
-    <Logger name="SeleniumTest.TestCycle2" level="trace" additivity="false">
+    <Logger level="trace" additivity="false">
       <AppenderRef ref="Console"/>
     </Logger>
         <Root level="trace">

@@ -135,7 +135,7 @@
                   <span class="method-name">Validation_POST_call</span>
                   <div class="stack-trace">org.junit.ComparisonFailure: Home Page is not arrived expected:&lt;[Hello biswajit!]&gt; but was:&lt;[ biswajit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:34)
+	at SeleniumTest.TestCycle2.Validation_POST_call(TestCycle2.java:35)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
@@ -159,15 +159,16 @@
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Log off
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;USHYDBISROUT1&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28432, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bbb23a82-9004-4ec8-b5ea-20e...}
-Session ID: bbb23a82-9004-4ec8-b5ea-20eaee93d186
+System info: host: &apos;USHYDBISROUT1&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 456, moz:profile: C:\Users\bisrout\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7f5503b-b6f4-494b-8caf-04025f37ec52
 *** Element info: {Using=link text, value=Log off}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
@@ -247,16 +248,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'EmployeeRegistration')
 data.setCell(0, 2, 'SeleniumTest.LoginTest')
-data.setCell(0, 3, 23442);
+data.setCell(0, 3, 22382);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Validation_POST_call')
 data.setCell(1, 2, 'SeleniumTest.TestCycle2')
-data.setCell(1, 3, 6510);
+data.setCell(1, 3, 4754);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -298,7 +299,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">EmployeeRegistration</span>
-                <span class="method-start">27579 ms</span>
+                <span class="method-start">18084 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -307,18 +308,18 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Validation_POST_call</span>
-                <span class="method-start">27595 ms</span>
+                <span class="method-start">18084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">killBrowser([TestResult name=Validation_POST_call status=FAILURE method=TestCycle2.Validation_POST_call()[pri:0,...)</span>
-                <span class="method-start">37866 ms</span>
+                <span class="method-start">27048 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTest.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">killBrowser([TestResult name=EmployeeRegistration status=FAILURE method=LoginTest.EmployeeRegistration()[pri:0, ...)</span>
-                <span class="method-start">55314 ms</span>
+                <span class="method-start">42800 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

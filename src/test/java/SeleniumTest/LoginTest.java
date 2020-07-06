@@ -4,6 +4,7 @@ import Pages.HomePage;
 
 import com.aventstack.extentreports.Status;
 import com.ea.Framework.Utilities.ExcelUtil;
+import com.ea.Framework.base.BasePage;
 import com.ea.Framework.base.DriverContext;
 
 import org.testng.Assert;
@@ -28,7 +29,8 @@ public class LoginTest extends TestInitialize {
     	
     	//To navigate to another page instance by below syntax 
     	//Below syntax to navigate to page "EmployerRegistration" by using clickRegister()
-    	currentpage=currentpage.As(HomePage.class).clickRegister();
+    	
+    	currentpage=   currentpage.As(HomePage.class).clickRegister();
     	
     	//Syntax to log info to the extent report
     	//@Param (Status,String)
@@ -38,7 +40,7 @@ public class LoginTest extends TestInitialize {
         DriverContext.WaitForPageToLoad();
         
         //To generate random number
-        int rand_User = currentpage.As(EmployeeRegistration.class).generateRandom();
+        int rand_User =  currentpage.As(EmployeeRegistration.class).generateRandom();
         int rand_pwd = currentpage.As(EmployeeRegistration.class).generateRandom();
         int rand_ID = currentpage.As(EmployeeRegistration.class).generateRandom();
         
@@ -49,19 +51,17 @@ public class LoginTest extends TestInitialize {
         String emailInitial = ExcelUtil.ReadCell("EmailInit",testCasename);
         
         //To continue with the same page function below syntax need to be followed
-        currentpage.As(EmployeeRegistration.class).RegistrationProcess(userIntial+rand_User,pwdInitial+"_"+rand_pwd,emailInitial+rand_ID+"@gmail.com");
+         currentpage.As(EmployeeRegistration.class).RegistrationProcess(userIntial+rand_User,pwdInitial+"_"+rand_pwd,emailInitial+rand_ID+"@gmail.com");
         getTest().log(Status.INFO,"Registration Details entered sucessfully");
         
-        //Current page might not work when running in Parallel or Grid.
-        //If this issue persists then Getinstanceof the page again and continue or create the page instance and call the desired function
-        currentpage=Getinstanceof(EmployeeRegistration.class);
-        currentpage=currentpage.As(EmployeeRegistration.class).clickRegisterbtn();
+        //when navigate to different page object like here we are navigating from 'EmployeeRegistration' to 'HomePage' then use below syntax
+        currentpage= currentpage.As(EmployeeRegistration.class).clickRegisterbtn();
         
         //Log for each step
         getTest().log(Status.INFO,"User click register"); 
         
         //TestNG assertion for any data validation
-        Assert.assertEquals("Home Page is not arrived",currentpage.As(HomePage.class).isLoggofftxt(),"Lo off!");
+        Assert.assertEquals("Home Page is not arrived", currentpage.As(HomePage.class).isLoggofftxt(),"Lo off!");
        
     }
     
